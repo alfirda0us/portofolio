@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">alfirda0us</a></div>
+            <div class="nav-links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="skill.html">Skills & Certificate</a></div>
+                <div class="link"><a href="#">Projects</a></div>
+                <div class="contact-button"><a href="https://online.fliphtml5.com/mkhfg/sgnm/#p=1" target="_blank">Portofolio</a></div>
+            </div>
+            <div class="hamburger" onclick="hamburger()">
+                <a href="#">—</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="hamburger-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skill.html">Skills & Certificate</a>
+                <a href="project.html">Projects</a>
+                <a href="https://online.fliphtml5.com/mkhfg/sgnm/#p=1" target="_blank">Portofolio</a>
+                <div class="cancel" onclick="cancel()">
+                    <a>X</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <img src="assets/src/img/background.jpg" alt="background">
+    
+    <section class="about" id="container">
+        <div class="about-header">
+            <h1>About Me</h1>
+        </div>
+        <div class="about-content">
+            <p>Hi, my name is Kenzie Ahnaf Firdaus. I’m a junior web developer and currently studying at IDN Boarding School. My main focus is building websites, applications, and designing user-friendly UI/UX. I’ve also gained experience through programs like IDN Mengajar, where I had the chance to share knowledge and teach in schools, universities, and even companies.</p>
+            <p>I enjoy working in a team, communicating clearly, and focusing on solutions. For me, a project isn’t just about delivering clean and functional results—it’s also about creating a smooth and enjoyable collaboration. I’d be glad to help turn your ideas into impactful digital projects.</p>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>© 2025 Kenzie Ahnaf Firdaus. All rights reserved.</p>
+    </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    function hamburger() {
+        const navbar = document.querySelector('.dropdown')
+        navbar.style.transform = "translateX(0px)"
+    }
+    function cancel(){
+        const navbar = document.querySelector('.dropdown')
+        navbar.style.transform = "translateX(-500px)"
+    }
+</script>
+</body>
+</html>

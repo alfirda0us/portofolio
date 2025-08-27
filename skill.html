@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">alfirda0us</a></div>
+            <div class="nav-links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="skill.html">Skills & Certificate</a></div>
+                <div class="link"><a href="#">Projects</a></div>
+                <div class="contact-button"><a href="https://online.fliphtml5.com/mkhfg/sgnm/#p=1" target="_blank">Portofolio</a></div>
+            </div>
+            <div class="hamburger" onclick="hamburger()">
+                <a href="#">—</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="hamburger-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skill.html">Skills & Certificate</a>
+                <a href="project.html">Projects</a>
+                <a href="https://online.fliphtml5.com/mkhfg/sgnm/#p=1" target="_blank">Portofolio</a>
+                <div class="cancel" onclick="cancel()">
+                    <a>X</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    
+    <section class="skills" id="container">
+        <div class="skills-header">
+            <h1>My Skills</h1>
+            <p>I bring together a mix of web and app development, UI/UX design, and graphic design, supported by strong skills in teamwork, teaching, and project management.</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">PHP</div>
+            <div class="skill">Dart</div>
+            <div class="skill">Flutter</div>
+            <div class="skill">Figma</div>
+            <div class="skill">Adobe XD</div>
+            <div class="skill">Adobe Illustrator</div>
+            <div class="skill">Adobe Photoshop</div>
+            <div class="skill">Wordpress</div>
+            <div class="skill">Android Studio</div>
+            <div class="skill">Mobile Apps</div>
+            <div class="skill">JQUERY</div>
+            <div class="skill">Java</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Photography</div>
+            <div class="skill">Management</div>
+            <div class="skill">Organization</div>
+            <div class="skill">Graphic Designer</div>
+            <div class="skill">UI/UX Designer</div>
+        </div>
+    </section>
+
+    <div class="certificate">
+        <img src="https://media.licdn.com/dms/image/v2/D562DAQF18UJsC2b8mQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728438032689?e=1756713600&v=beta&t=MkreM0m6jZUieM3VOO4l982sLQ7jF8LwfGvYXOcdcMo" alt="">
+        <img src="https://media.licdn.com/dms/image/v2/D562DAQHX7_QpJqwVIg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728437994576?e=1756713600&v=beta&t=025anhCYWCjGnvQqTWJqHj5CP2HF5WHj7jIumjAnNus" alt="">
+        <img src="https://media.licdn.com/dms/image/v2/D562DAQEJ__005AbATg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728437409409?e=1756713600&v=beta&t=-k8Sd_rPNYFnZVsJJ2LchiJyThdcfN8uswtdbv1cBDA" alt="">
+    </div>
+
+    <footer>
+        <p>© 2024 Kenzie Ahnaf Firdaus. All rights reserved.</p>
+    </footer>
+
+<script>
+    function hamburger() {
+        const navbar = document.querySelector('.dropdown')
+        navbar.style.transform = "translateX(0px)"
+    }
+    function cancel(){
+        const navbar = document.querySelector('.dropdown')
+        navbar.style.transform = "translateX(-500px)"
+    }
+</script>
+</body>
+</html>
