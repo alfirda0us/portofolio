@@ -337,6 +337,9 @@ i:hover{
         display: flex;
         justify-content: center;
     }
+    section {
+        display: sticky;
+    }
     footer{ 
         display: block;
     }
