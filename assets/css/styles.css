@@ -43,8 +43,8 @@ body{
     margin: 0;
     padding: 0;
     background: var(--background-color);
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -331,14 +331,14 @@ i:hover{
     .cancel{
         display: block;
     }
+    section {
+        display: block;
+    }
     .main-container .image {
         margin: 2rem;
         width: 85%;
         display: flex;
         justify-content: center;
-    }
-    section {
-        display: sticky;
     }
     footer{ 
         display: block;
