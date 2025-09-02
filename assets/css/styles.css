@@ -299,52 +299,6 @@ i:hover{
     background-color: var(--primary-color-dark);
 }
 
-@media screen and (max-width: 768px) {
-    body{
-        overflow: visible;
-    }
-    .logo{
-        position: absolute;
-        top: 16px;
-        left: 16px;
-        font-size: var(--larger-font-size);
-    }
-    .main-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .nav-container .nav-links{
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-    .hamburger a{
-        color: var(--primary-color);
-    }
-    .hamburger .cancel{
-        display: block;
-    }
-    .content{
-        width: 90%;
-    }
-    .cancel{
-        display: block;
-    }
-    section {
-        display: block;
-    }
-    .main-container .image {
-        margin: 2rem;
-        width: 85%;
-        display: flex;
-        justify-content: center;
-    }
-    footer{ 
-        display: none;
-    }
-}
-
 #container{
     display: flex;
     justify-content: space-evenly;
@@ -453,4 +407,50 @@ footer{
     color: var(--background-color);
     font-size: var(--small-font-size);
     margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow: visible;
+    }
+    .logo{
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        font-size: var(--larger-font-size);
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-container .nav-links{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger a{
+        color: var(--primary-color);
+    }
+    .hamburger .cancel{
+        display: block;
+    }
+    .content{
+        width: 90%;
+    }
+    .cancel{
+        display: block;
+    }
+    section {
+        display: block;
+    }
+    .main-container .image {
+        margin: 2rem;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+    }
+    footer{ 
+        display: none;
+    }
 }
