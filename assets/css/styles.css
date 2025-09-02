@@ -435,9 +435,6 @@ footer{
     .hamburger .cancel{
         display: block;
     }
-    .content{
-        width: 90%;
-    }
     .cancel{
         display: block;
     }
@@ -447,7 +444,10 @@ footer{
         display: flex;
         justify-content: center;
     }
+    .content{
+        width: 90%;
+    }
     footer{ 
-        display: none;
+        display: absolute;
     }
 }
