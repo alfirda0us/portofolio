@@ -341,7 +341,7 @@ i:hover{
         justify-content: center;
     }
     footer{ 
-        display: block;
+        display: sticky;
     }
 }
 
