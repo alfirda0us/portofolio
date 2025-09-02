@@ -441,9 +441,6 @@ footer{
     .cancel{
         display: block;
     }
-    section {
-        display: block;
-    }
     .main-container .image {
         margin: 2rem;
         width: 85%;
