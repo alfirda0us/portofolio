@@ -448,6 +448,6 @@ footer{
         width: 90%;
     }
     footer{ 
-        display: absolute;
+        display: none;
     }
 }
