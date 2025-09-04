@@ -450,4 +450,8 @@ footer{
     footer{ 
         display: none;
     }
+    .content .btn{
+        scale: 0.7;;
+    }
+}
 }
