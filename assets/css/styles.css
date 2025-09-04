@@ -453,5 +453,7 @@ footer{
     .content .btn{
         scale: 0.7;;
     }
-}
+    img{
+    position: static;
+    }
 }
