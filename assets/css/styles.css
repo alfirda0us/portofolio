@@ -127,12 +127,6 @@ nav{
     transition: 0.3s linear;
 }
 
-section{
-    width: 100%;
-    height: 90vh;
-    flex: 1;
-}
-
 .main-container{
     margin: 5rem 0 5rem 0;
     width: 100%;
@@ -390,13 +384,12 @@ section{
 }
 
 .certificate img{
-    width: 500px;
+    width: 700px;
     height: auto;
     border-radius: 5px;
     border: solid 0.25rem;
     border-color: var(--primary-color);
     transition: 0.3s linear;
-    flex: 0 0 auto;
 }
 
 footer{
