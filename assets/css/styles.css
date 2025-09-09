@@ -200,18 +200,18 @@ section{
     animation: cursor 0.6s linear infinite;
 }
 
-.content p{
+.content article{
     font-size: var(--normal-font-size);
     color: var(--primary-color);
 }
 
-i{
+.social-links i{
     padding: 1rem;
     color: var(--primary-color);
     transition: 0.3s linear;
 }
 
-i:hover{
+.social-links i:hover{
     scale: 1.1;
     color: var(--primary-color-dark);
 }
@@ -268,10 +268,15 @@ i:hover{
     position: absolute;
     right: 15px;
     top: 10px;
-    color: orange;
     font-size: var(--larger-font-size);
     display: none;
 }  
+
+.hamburger-links .cancel i{
+    right: 15px;
+    top: 10px;
+    color: var(--background-color);
+}
 
 .dropdown {
     z-index: 100;
@@ -280,12 +285,11 @@ i:hover{
     transform: translateY(-500px);
     width: 100%;
     height: auto;
-    /* backdrop-filter: brightness(0.8) blur(4px); */
     background-color: var(--primary-color);
     transition: 0.2s linear;
 }
 
-.dropdown .hamburger-links a{
+.dropdown .hamburger-links a {
     color: var(--background-color);
     display: flex;
     text-decoration: none;
@@ -295,48 +299,8 @@ i:hover{
     transition: 0.2s linear;
 }
 
-.dropdown .hamburger-links a:hover{
+.dropdown .hamburger-links a :hover{
     background-color: var(--primary-color-dark);
-}
-
-@media screen and (max-width: 768px) {
-    body{
-        overflow: visible;
-    }
-    .logo{
-        position: absolute;
-        top: 16px;
-        left: 16px;
-        font-size: var(--larger-font-size);
-    }
-    .main-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .nav-container .nav-links{
-        display: none;
-    }
-    .hamburger {
-        display: block;
-    }
-    .hamburger a{
-        color: var(--primary-color);
-    }
-    .hamburger .cancel{
-        display: block;
-    }
-    .content{
-        width: 90%;
-    }
-    .cancel{
-        display: block;
-    }
-    .main-container .image {
-        margin: 2rem;
-        width: 85%;
-        display: flex;
-        justify-content: center;
-    }
 }
 
 #container{
@@ -446,4 +410,47 @@ footer{
     color: var(--background-color);
     font-size: var(--small-font-size);
     margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow: visible;
+    }
+    .logo{
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        font-size: var(--larger-font-size);
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-container .nav-links{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger a{
+        color: var(--primary-color);
+    }
+    .hamburger .cancel{
+        display: block;
+    }
+    .content{
+        width: 90%;
+    }
+    .cancel{
+        display: block;
+    }
+    .main-container .image {
+        margin: 2rem;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        display: none;
+    }
 }
